@@ -1,0 +1,25 @@
+canvas{
+    background: #eee; 
+    display: block;
+    margin: 0 auto;  
+    border: 1px solid black;
+    background:url(img/canvas-pattern.jpg);
+    cursor: none;
+}
+
+.sound_controls{
+    width: 480px;
+    margin:auto;
+    padding: 20px 0 0 0;
+}
+
+.fx, .music{
+    margin-right: 20px; 
+    display: inline-block;
+    padding: 0 30px 0 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: lightblue;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}

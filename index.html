@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bricks Breaker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="game_canvas" width="480" height="320"></canvas>
+
+    <div class="sound_controls">
+        <div class="fx">
+            <input type="checkbox" id="fx" name="fx">
+            <label for="fx">fx mute</label>
+        </div>
+        <div class="music">
+        <input type="checkbox" id="music" name="music">
+        <label for="music">music mute</label>
+        </div>
+    </div>
+
+    <script src="sound.js"></script>
+    <script src="bricks.js"></script>
+    <script src="levels/levels.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
